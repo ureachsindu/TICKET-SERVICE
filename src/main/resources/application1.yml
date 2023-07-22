@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ticketdb
+    username: root
+    password: sindhu
+  security:
+    user:
+      name: admin
+      password: admin
+server:
+  servlet:
+    context-path: /ticketapi
+  port: 8060
+springdoc:
+  swagger-ui:
+        path: /swaggerui
